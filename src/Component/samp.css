@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main {
+    min-height: 80vh;
+    width: 100%;
+    background: #d5fafc;
+    position: relative;
+    /* padding: 1px;
+      display: flex; */
+  }
+  .card {
+    /* position: relative; */
+  }
+  .heading {
+    position: absolute;
+    /* background-color: #fff; */
+    top: 17%;
+    left: 8.5%;
+    /* margin-bottom: 10% */
+  }
+  .heading h1{
+      font-size: 45px;
+      width: 80%;
+  }
+  .heading p {
+    font-size: 15px;
+    color: #001;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+  #mark {
+    height: 100px;
+    /* background-color: blue; */
+    margin-top: 6%;
+    margin-left: 3%;
+  }
+  .content{
+      /* background-color: red; */
+      margin-top: 8%;
+      margin-left: 8.5%;
+  }
+  .box {
+      width: 80%;
+    /* margin-top: 8%; */
+    border-radius: 5px;
+    background-color: #fff;
+    /* margin-right: 5%;
+    margin-left: 5%; */
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  
+  }
+  .para {
+    /* background-color: red; */
+    margin: 20px;
+    width: 80%;
+  }
+  .para p {
+    font-size: 15px;
+    color: #001;
+    font-weight: 200;
+    margin-top: 10px;
+    padding: 20px 30px;
+    /* text-align: center; */
+  }
+  .namecontent {
+    /* background-color: #fff; */
+    line-height: 20px;
+    padding: 0px 10px 30px 30px;
+  
+  }
+  
+  h6 {
+    color: #857b7b;
+    font-weight: 100;
+  }
+  #PNG{
+      height: 10px;
+      position: absolute;
+      left: 3%;
+      top: 12%;
+  }
+  
+   @media only screen and (max-width: 768px){
+     .heading{
+      top: 13%;
+      left: 5%;
+     } 
+     .heading h1{
+      width: 100%;
+      font-size: 40px;
+  }
+  #PNG{
+      margin-left: 2%;
+  }
+  } 
+  
+  @media only screen and (max-width: 576px){
+      .heading h1{
+          font-size: 25px;
+          width: 80%;
+      }
+  .heading{
+      top: 13%;
+      left: 7%;
+  }
+  .content{
+      /* margin-top: 5%; */
+      margin-left: 7%;
+      /* background-color: red; */
+  }
+  .para{
+   /* background-color: red; */
+   margin-left: 10%;
+  
+  }
+  .box{
+   width: 80%;
+  }
+  #PNG{
+     top: 5%;
+     left: 10%;
+  }
+  }
+  
+  

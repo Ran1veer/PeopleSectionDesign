@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  min-height: 80vh;
+  width: 100%;
+  background: #d5fafc;
+  position: relative;
+  /* padding: 1px;
+    display: flex; */
+}
+.card {
+  /* position: relative; */
+}
+.heading {
+  position: absolute;
+  /* background-color: #fff; */
+  top: 15%;
+  left: 5%;
+  /* margin-bottom: 10% */
+}
+.heading p {
+  font-size: 15px;
+  color: #001;
+  font-weight: 200;
+  margin-top: 10px;
+}
+#mark {
+  height: 100px;
+  /* background-color: blue; */
+  margin-top: 6%;
+  margin-left: 3%;
+}
+.content{
+    /* background-color: red; */
+    margin-top: 8%;
+}
+.box {
+  /* margin-top: 8%; */
+  border-radius: 5px;
+  background-color: #fff;
+  margin-right: 5%;
+  margin-left: 5%;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+.para {
+  /* background-color: red; */
+  margin: 20px;
+}
+.para p {
+  font-size: 15px;
+  color: #001;
+  font-weight: 200;
+  margin-top: 10px;
+  padding: 20px 30px;
+  /* text-align: center; */
+}
+.namecontent {
+  /* background-color: #fff; */
+  line-height: 20px;
+  padding: 0px 10px 30px 30px;
+
+}
+
+h6 {
+  color: #857b7b;
+  font-weight: 100;
+}
+#PNG{
+    height: 10px;
+    position: absolute;
+    left: 4%;
+    top: 12%;
+}
+
+/* @media only screen and (max-width: 1366px){
+    .card{
+        display: flex;
+    }
+    .heading{
+        top: 20%;
+        left: 9%;
+        z-index: 9;
+    }
+    .heading h1{
+        width: 80%;
+        font-size: 40px;
+    }
+    .content{
+        display: grid;
+        margin-top: 4%;
+    }
+} */
+
+@media only screen and (max-width: 576px){
+    .heading h1{
+        font-size: 25px;
+    }
+.heading{
+    top: 10%;
+    left: 7%;
+}
+.content{
+    margin-top: 18%;
+}
+.box{
+margin: 0% 7%;
+}
+#PNG{
+   top: 5%;
+   left: 10%;
+}
+}
+

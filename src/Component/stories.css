@@ -1,16 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 .main {
   min-height: 80vh;
   width: 100%;
   background: #d5fafc;
   position: relative;
 }
-.card {
+.section {
   display: flex;
 }
 .heading {
@@ -100,7 +95,7 @@ h6 {
   .heading h1 {
     width: 100%;
   }
-  .card {
+  .section {
     display: block;
   }
   .content {
@@ -130,7 +125,7 @@ h6 {
   #PNG {
     margin-left: 2%;
   }
-  .card {
+  .section {
     display: block;
   }
   .box {

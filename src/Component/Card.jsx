@@ -6,7 +6,7 @@ import store2 from "../assets/storebadge2.png";
 import "./card.css";
 const Card = () => {
   return (
-    <div className="main">
+    <div className="mainCard">
       <div className="component">
         <div className="card">
           <h1>Manage all projects from your mobile</h1>

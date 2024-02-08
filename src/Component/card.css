@@ -1,10 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.main {
+
+.mainCard{
   min-height: 80vh;
   width: 100%;
   background: #1db5be;
@@ -60,7 +55,7 @@
 }
 
 @media only screen and (max-width: 992px){
-  .main{
+  .mainCard{
     display: block;
   }
   .card {
@@ -89,7 +84,7 @@
 }
 
 @media only screen and (max-width: 768px){
-  .main{
+  .mainCard{
     display: block;
   }
 
@@ -109,7 +104,7 @@
 
 @media only screen and (max-width: 576px){
 
-  .main{
+  .mainCard{
     display: block;
   }
   .card h1{

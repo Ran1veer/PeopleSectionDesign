@@ -5,7 +5,7 @@ import PNG from "../assets/mark.png";
 const Stories = () => {
   return (
     <div className="main">
-      <div className="card">
+      <div className="section">
         <img id="mark" src={PNG1} alt="png" />
         <div className="heading">
           <h1>Real Stories from Real Customers</h1>
